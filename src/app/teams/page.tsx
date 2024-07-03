@@ -1,6 +1,6 @@
 "use client";
 
-import ResultsPage from '@/components/ResultsPage/ResultsPage';
+import ResultsPage from '@/components/ChakraUI/ResultsPage/ResultsPage';
 
 
 

@@ -3,11 +3,11 @@
 import { useState, useEffect } from 'react';
 import { Container, Box, Text, Flex, useDisclosure } from "@chakra-ui/react";
 import axios from 'axios';
-import { PageConfig, GenericEntity, ColumnConfig } from '../../app/types';
-import ResultsHeader from '@/components/ResultsPage/ResultsHeader';
-import ResultsToolbar from '@/components/ResultsPage/ResultsToolbar';
-import ResultsContent from '@/components/ResultsPage/ResultsContent';
-import CustomColumnsModal from '@/components/ResultsPage/CustomColumnsModal';
+import { PageConfig, GenericEntity, ColumnConfig } from '../../../app/types';
+import ResultsHeader from '@/components/ChakraUI/ResultsPage/ResultsHeader';
+import ResultsToolbar from '@/components/ChakraUI/ResultsPage/ResultsToolbar';
+import ResultsContent from '@/components/ChakraUI/ResultsPage/ResultsContent';
+import CustomColumnsModal from '@/components/ChakraUI/ResultsPage/CustomColumnsModal';
 
 interface ResultsPageProps<T extends GenericEntity> {
   configId: string;

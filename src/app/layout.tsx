@@ -1,8 +1,8 @@
 'use client';
 
 import { ChakraProvider, Flex } from '@chakra-ui/react';
-import { NavBar } from '@/components/NavBar';
-import { SecondaryNav } from '@/components/SecondaryNav'
+import { NavBar } from '@/components/ChakraUI/NavBar';
+import { SecondaryNav } from '@/components/ChakraUI/SecondaryNav'
 import theme from '../theme';
 import { ReactNode } from 'react';
 import Head from 'next/head';

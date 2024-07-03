@@ -1,8 +1,8 @@
 import { Box, Stack } from '@chakra-ui/react';
-import { GridTable } from '@/components/GridTable';
-import { TableFooter } from '@/components/TableFooter';
-import { GridComponent } from '@/components/GridComponent';
-import { GenericEntity, ColumnConfig, GridActionsConfig } from '../../app/types';
+import { GridTable } from '@/components/ChakraUI/GridTable';
+import { TableFooter } from '@/components/ChakraUI/TableFooter';
+import { GridComponent } from '@/components/ChakraUI/GridComponent';
+import { GenericEntity, ColumnConfig, GridActionsConfig } from '../../../app/types';
 
 interface ResultsContentProps<T extends GenericEntity> {
   viewType: 'list' | 'grid';

@@ -15,7 +15,7 @@ import {
   HStack,
   Input,
 } from '@chakra-ui/react';
-import { ColumnConfig } from '../../app/types';
+import { ColumnConfig } from '../../../app/types';
 import { CSVLink } from "react-csv";
 
 interface CustomColumnsModalProps {

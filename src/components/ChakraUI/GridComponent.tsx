@@ -1,7 +1,7 @@
 import { Box, SimpleGrid, Text, HStack, IconButton, Stack, Button } from '@chakra-ui/react';
 import { FiEdit2, FiTrash2, FiMoreVertical } from 'react-icons/fi';
 import { useState } from 'react';
-import { GenericEntity, ColumnConfig } from '../app/types';
+import { GenericEntity, ColumnConfig } from '../../app/types';
 
 interface GridComponentProps<T extends GenericEntity> {
   entities: T[];

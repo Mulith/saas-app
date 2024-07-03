@@ -18,7 +18,7 @@ import {
 import { FiEdit2, FiMoreVertical, FiTrash2 } from 'react-icons/fi';
 import { IoArrowDown } from 'react-icons/io5';
 import { Rating } from './Rating';
-import { GridTableProps, GenericEntity } from '../app/types';
+import { GridTableProps, GenericEntity } from '../../app/types';
 
 export const GridTable = <T extends GenericEntity>(props: GridTableProps & { entities: T[] }) => {
   const {
